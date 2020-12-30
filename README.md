@@ -9,6 +9,7 @@ what if I told you you could do this in O(m) where m is number of characters in 
 well belive it cause we  are gonna implement this in this repo.
 
 we are going to use a rarely used form of trees. a highly specific form of trees called trie.
+also trie is pronounced as try in case you were wondering
 
 -syotos
   
