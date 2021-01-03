@@ -38,6 +38,7 @@ private:
       //since a is 97 thus a-97 is zero
       //for z it will become 25
       //thus it will serve as index for our array of children
+      //alternatively we could write c - a
       return c - 97;
    }
    //this is used to remove the - and -- and other special characters in front of words
@@ -61,8 +62,11 @@ private:
       {
          //s.at(i) is a c++ method that returns a charcters at some posutuons in a string
          char c = s.at(i);
+         //conversion of character to integer
          int num = c;
          //all printable characters except '-'
+         //> 35 and <127 because this is the range for printable characters for ASCII charcter encoding
+         //not equal to 45 because 45 is for '-'
          if (num > 31 && num < 127 && num != 45)
          {
             //if a char from 'a' to 'z' is found break loop
