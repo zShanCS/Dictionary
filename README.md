@@ -1,5 +1,5 @@
 # Dictionary
-an attempt at implementing dictionary that saves a word, its meaning, antonyms and synonyms plus other fancy things you find in a dictionary.
+a dictionary that saves a word, its meaning, antonyms and synonyms plus other fancy things you find in a dictionary.
 
 we know if we put a billion unsorted elements in a singly linked list or array,
 the complexity to find one specific item would be O(n) 
